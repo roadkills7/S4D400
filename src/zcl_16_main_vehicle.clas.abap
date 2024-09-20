@@ -1,0 +1,18 @@
+CLASS zcl_16_main_vehicle DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    DATA make  TYPE string.
+    DATA model TYPE string.
+    DATA speed TYPE i.
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_16_main_vehicle IMPLEMENTATION.
+ENDCLASS.
